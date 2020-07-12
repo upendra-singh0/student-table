@@ -12,7 +12,7 @@ npm run start
 
 API used to populate data : https://9hu0ztgsi6.execute-api.us-east-2.amazonaws.com/test/student/grade/#
 
-![Alt text](https://github.com/upendra-singh0/student-table/res/table.png?raw=true 'image to show table')
+![Alt text](https://github.com/upendra-singh0/student-table/blob/master/res/table.png?raw=true 'image to show table')
 
 ### RESOURCES
 
