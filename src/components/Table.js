@@ -48,6 +48,11 @@ export default function Table({ columns, data }) {
                         : 'sort-asc'
                       : ''
                   }
+                  style={{
+                    background: '#404F48',
+                    color: 'white',
+                    fontWeight: 'bold',
+                  }}
                 >
                   {column.render('Header')}
                 </th>
@@ -62,7 +67,9 @@ export default function Table({ columns, data }) {
               <tr {...row.getRowProps()}>
                 {row.cells.map((cell) => {
                   return (
-                    <td {...cell.getCellProps()}>{cell.render('Cell')}</td>
+                    <td align="center" {...cell.getCellProps()}>
+                      {cell.render('Cell')}
+                    </td>
                   );
                 })}
               </tr>
